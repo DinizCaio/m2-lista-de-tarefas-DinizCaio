@@ -1,0 +1,30 @@
+.header__title {
+  color: #3b5bdb;
+
+  font-size: 1.625rem;
+  font-weight: 500;
+}
+.input__box {
+  font-size: 1rem;
+}
+.title2 {
+  font-size: 1.5rem;
+}
+.form__button--add-task {
+  font-size: 1rem;
+}
+.form__input--priority {
+  color: #757575;
+}
+.task-info__container p {
+  color: #272727;
+}
+.span-urgent {
+  background-color: #e40404;
+}
+.span-important {
+  background-color: #f3a703;
+}
+.span-normal {
+  background-color: #028302;
+}

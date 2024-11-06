@@ -1,0 +1,54 @@
+.form__container {
+  box-sizing: border-box;
+
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
+  padding: 3rem;
+
+  gap: 2.5rem;
+  border-radius: 0.5rem;
+
+  width: 65%;
+}
+.form__input-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+.form__input--text {
+  box-sizing: border-box;
+
+  background-color: #ebebeb;
+
+  width: 55%;
+  height: 3.5rem;
+
+  border-radius: 6px;
+  border: none;
+  padding: 1rem;
+}
+.form__input--priority {
+  background-color: #ebebeb;
+
+  width: 35%;
+  height: 3.5rem;
+
+  border-radius: 6px;
+  border: none;
+  padding: 1rem;
+}
+.form__button--add-task {
+  background-color: #3b5bdb;
+  color: #fff;
+
+  width: 100%;
+  height: 3.5rem;
+
+  border-radius: 6px;
+  border: none;
+}

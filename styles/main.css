@@ -1,0 +1,10 @@
+.main__container {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 2rem 0rem;
+  gap: 2rem;
+}
