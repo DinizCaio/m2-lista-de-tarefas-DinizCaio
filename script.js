@@ -49,3 +49,22 @@ function createTaskItem(taskObj) {
 
   return li;
 }
+
+const taskName = document.querySelector("#input_title");
+const taskType = document.querySelector(".form__input--priority");
+const buttonAdd = document.querySelector(".form__button--add-task");
+
+buttonAdd.addEventListener("click", function (event) {
+  event.preventDefault();
+  const taskNameValue = taskName.value;
+  const taskTypeValue = taskType.value;
+  const objTask = {};
+  if (taskNameValue == "" || taskTypeValue == "") {
+    alert("Tarefa não adicionada!");
+  } else {
+    objTask.title = taskNameValue;
+    objTask.type = taskTypeValue;
+    tasks.push(objTask);
+    renderElements(tasks);
+  }
+});
