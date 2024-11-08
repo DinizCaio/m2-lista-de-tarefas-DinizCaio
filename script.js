@@ -39,6 +39,12 @@ function createTaskItem(taskObj) {
   }
   button.classList.add("task__button--remove-task");
 
+  button.addEventListener("click", function (event) {
+    let indexDel = tasks.indexOf(taskObj);
+    tasks.splice(indexDel, 1);
+    renderElements(tasks);
+  });
+
   p.innerText = taskObj.title;
 
   div.appendChild(span);
